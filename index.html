@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MyGoogle</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script type="text/javascript" src="jquery-3.1.1.min.js">
+	</script>
+	 	 <link rel="shortcut icon" type="image/x-icon" href="https://cdn.shopify.com/s/files/1/0672/6717/t/12/assets/google_logo.png?18314368853636730271">
+</head>
+<body>
+<div></div>
+<div class="form">
+	<div class="logo"><div id="country"><p>Россия</p><br><br></div></div>
+	<div class="text">
+		<input id="search" type="text" name="search" title="Поиск">
+		
+			<span id="click_btn">
+				<img src="https://www.gstatic.com/inputtools/images/tia.png">
+			</span>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#search').focus(function() {
+					$('.text').css("outline-color", "#4285f4");
+				});
+			})	
+		</script>
+	</div>
+	<div class="buttons">
+	<center>
+		<input type="submit" value="Поиск в Google" id="search_btn">
+		<input type="submit" value="Мне повезёт!" id="lucky_btn">
+	</center>
+	</div>
+</div>
+<!--<div class="footer">-->
+	<ul>
+		<span class="lft2">
+		<li><a href="#">Реклама</a></li>
+		<li><a href="#">Для Бизнеса</a></li>
+		</span>
+		<span class="lft">
+		<li><a href="#">Все о Google</a></li>
+		<li><a href="#">Условия</a></li>
+		</span>
+	</ul>
+
+</body>
+</html>
+
