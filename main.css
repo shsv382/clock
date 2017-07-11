@@ -15,7 +15,7 @@
   }
   
   #hour-white {
-    border: 1px solid #fff;
+    border: none;
     height: 50px;
     width: 0px;
     margin: auto;
@@ -37,7 +37,7 @@
   }
   
   #minute-white {
-    border: 1px solid #fff;
+    border: none;
     height: 70px;
     width: 0px;
     margin: auto;
@@ -59,7 +59,7 @@
   }
   
   #second-white {
-    border: 1px solid #fff;
+    border: none;
     height: 70px;
     width: 0px;
     margin: auto;
